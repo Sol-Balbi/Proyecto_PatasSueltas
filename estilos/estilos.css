@@ -1,0 +1,703 @@
+
+/***___________________________________________________________ MOVIL _______________________________________________________________________**/
+
+
+
+/************ LOGO *********************/
+
+.logotipo{
+    width: 10rem;  
+}
+
+/**************INICIO********************/
+
+.link{
+    font-size: large;
+    color:rgb(243, 172, 41);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*********** PREGUNTA*********************/
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 172, 41);
+    border-radius: 60px 70px 40px 140px;
+    padding: 1rem;
+    color:rgb(96, 129, 100) ;
+}
+
+
+.pregunta-opciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(118, 194, 128);
+    border-radius: 30px ;
+    width: 25rem;
+    margin: auto;
+}
+
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 5rem;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.opciones h4{
+    color: rgb(189, 133, 30);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.opciones p{
+    font-size: large;
+}
+
+/*************** CARD ****************************/
+
+.card{
+    box-shadow: -1px 3px 35px -5px rgba(0,0,0,0.33);
+}
+
+.imagenes-card a{
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    margin: auto;
+    transition: 1s;
+}
+
+.imagenes-card .info:hover{
+    width: 15rem;
+    transition: 0.3s;
+    
+}
+
+.imagenes-card{
+    margin-top: 3rem;
+}
+
+
+
+/************ FOOTER ***************************/
+
+footer{
+    background-color:  rgb(118, 194, 128);
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+footer .nav{
+    padding-top: 1rem;
+}
+
+.texto{
+    margin-top: 1rem;
+}
+
+.logos{
+    display: flex;
+    justify-content:center;
+    margin-top: 2rem;
+    gap: 2rem;  
+    
+}
+
+.logos img{
+    width: 1.5rem;   
+}
+
+
+/*********GALERIA*******/
+
+.texto-galeria{
+    color: rgb(243, 172, 41);
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.texto-galeria h1{
+    font-size: 2rem;
+    color: rgb(118, 194, 128);
+
+}
+
+.galeria{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.caja-galeria{
+    position: relative;
+    width: 25rem;
+    height: 25rem; 
+    margin: auto; 
+    margin-bottom: 1rem;
+} 
+
+.imagen-geleria{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre-perro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: default;
+}
+
+.nombre-perro:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.perro{
+    color: rgb(243, 172, 41);
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+/***************CONTACTO*****************************/
+
+.titulo_for{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 172, 41);
+    color:rgb(96, 129, 100); 
+    border-radius: 60px 70px 40px 140px;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+  
+.caja_contacto{
+    margin: auto;
+    padding: 2rem;
+}
+  
+.cajas1{
+    font-size: larger;
+}
+   
+.cajas2{
+    padding: 20px;
+    text-align: center;
+}
+  
+.cajas3{
+    color: rgb(118, 194, 128);
+    margin-bottom: 1rem;
+    font-size:x-large;
+}
+
+.cajas2 input{
+    background-color: rgb(243, 172, 41);
+    color:rgb(96, 129, 100); 
+    border-radius: 60px 60px ;
+    border: 0;
+    padding: 1rem;
+    
+}
+  
+small{
+    visibility: hidden;
+    font-size: small;
+    color: rgb(212, 54, 54);
+}
+  
+.form-control.error small{
+    visibility: visible;
+    
+}
+  
+.form-control.error{
+    font-size: larger;
+    border: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+  
+.form-control.success{
+    font-size: larger;
+    border: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+  
+
+/***************MAPA*****************************/
+
+#map{
+    width:370px; 
+    height: 450px;
+    margin-left: -0.3rem;
+    
+}
+
+
+
+
+
+
+
+
+
+/***********************************************************************************       TABLET       **********************************/
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    /***********GALERIA**************/
+    .texto-galeria{
+        padding: 2rem;
+     }
+
+
+    /***********PREGUNTA************/
+    .pregunta-opciones{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+        text-align: center;
+        background-color: rgb(118, 194, 128);
+        border-radius: 30px ;
+        width: 45rem;
+        margin: auto;
+    }
+
+    .opciones{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 2rem;
+        text-align: center;    
+    }
+
+
+    /**********CARD*************/
+    .imagenes-card{
+        width: 20rem;
+        margin: 9rem;
+        margin-top: 3rem;
+        margin-bottom: 0%;
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 30rem;
+    }
+   
+    .card-img-top {
+        width: 180px;
+        object-fit: cover;     
+    }
+
+   
+    .imagenes-card .info:hover{
+        width: 14rem;
+        transition: 0.3s;
+    }
+
+    
+    /************ FOOTER ***************************/
+
+    footer{
+        background-color:  rgb(118, 194, 128);
+        padding-bottom: 1rem;
+        margin-top: 3rem;
+    }
+
+    footer .nav{
+        padding-top: 1rem;
+    }
+
+    .texto{
+        margin-top: 1rem;
+    }
+
+    .logos{
+        display: flex;
+        justify-content:center;
+        margin-top: 2rem;
+        gap: 2rem;  
+        
+    }
+
+    .logos img{
+        width: 1.5rem;   
+    }
+
+    
+
+
+    /******CONTACTO********/
+
+    label{
+        margin-right: 9.5rem;
+        
+    }
+    
+    .correo-label{
+        margin-right: 4.5rem;
+    }
+
+    .comentario-label{
+        margin-right:15rem ;
+    }
+
+    .privacidad-label{
+        margin-right:2rem;
+    }
+
+    .cajas1{
+        font-size: larger;
+        text-align: center;
+    }
+
+    .cajas3{
+        text-align: center;
+    }
+      
+    .form-control.error small{
+        text-align: center;
+        
+    }
+      
+    .form-control.error{
+       text-align: center;
+    }
+      
+    .form-control.success{
+        text-align: center;
+    }
+    
+    #map{
+        
+        width: 700px;
+        height: 500px;
+        
+    }
+    
+    
+   
+}
+
+
+
+
+
+
+/**************************************************************************************************   ORDENADOR    **********/
+
+@media screen and (min-width:1024px) and (max-width:1439px){
+    /*************CARRUSEL**********/
+    .d-item{
+        height: 500px;
+    }
+
+    .d-img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /***********PREGUNTA************/
+    .pregunta-opciones{
+        display: flex;
+        flex-direction: row;
+        width: 50rem;
+        background-color: rgb(118, 194, 128);
+        border-radius: 30px ;
+          
+    }
+
+    .opciones{
+        margin: 3rem 3rem;
+        text-align: center;    
+    }
+
+    /**********CARD*************/
+
+    .imagenes-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card{
+        width: 20rem;
+    }
+
+    
+    /************ FOOTER ***************************/
+
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color:  rgb(118, 194, 128);
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .texto{
+        align-items: center;
+        margin-bottom: 0;
+        
+    }
+
+    .logos{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+
+    .logos img{
+        width: 1.5rem;   
+    }
+
+
+    /*************************************GALERIA***********************************/
+    
+    
+    
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .caja-galeria{
+        position: relative;
+        width: 25rem;
+        height: 25rem;  
+    } 
+
+
+    /***************CONTACTO*****************************/
+
+    .titulo_for{
+        font-size: xx-large;
+        font-family: "Latin Modern Roman";
+        margin-top: 50px;
+      }
+      
+    .caja_contacto{
+        display: flex;
+        
+      }
+      
+    .cajas1{
+        padding-right: 4rem;
+        margin-left: 5rem;
+       
+        
+      }
+    .cajas3{
+        margin-left: 5rem;
+        }
+    
+    .form-control.error{
+        margin-left: 5rem;
+        }
+    
+    .form-control.success{
+        margin-left: 5rem;
+        }
+    
+       
+    /***************MAPA*****************************/
+    #map{
+        display: flex;
+        align-items: center;
+        width: 450px;
+        height: 700px;
+    }
+    }
+    
+    
+        
+
+
+
+
+
+
+    
+  
+
+/***************************************************** ORDENADOR L ***********************************************************/
+
+@media screen and (min-width:1440px){
+
+
+     /***********GALERIA**************/
+    .texto-galeria{
+        margin: 6rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: large;
+     }
+    /*************CARRUSEL**********/
+    .d-item{
+        height: 750px;
+    }
+
+    .d-img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /**********CARD*************/
+
+    .imagenes-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card{
+        width: 20rem;
+    }
+
+    /***********PREGUNTA************/
+    .pregunta-opciones{
+        display: flex;
+        flex-direction: row;
+        width: 80rem;
+        background-color: rgb(118, 194, 128);
+        border-radius: 30px ;
+          
+    }
+
+    .opciones{
+        margin: 3rem 3rem;
+        text-align: center;    
+    }
+
+    /************ FOOTER ***************************/
+
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color:  rgb(118, 194, 128);
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .texto{
+        align-items: center;
+        margin-bottom: 0;
+        
+    }
+
+    .logos{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+
+    .logos img{
+        width: 1.5rem;   
+    }
+
+
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .caja-galeria{
+        position: relative;
+        width: 25rem;
+        height: 25rem;  
+    } 
+
+
+
+
+
+    /***************CONTACTO*****************************/
+
+    .titulo_for{
+        font-size: xx-large;
+        font-family: "Latin Modern Roman";
+        margin-top: 50px;
+    }
+    
+    .caja_contacto{
+        display: flex;
+        
+    }
+  
+    .cajas1{
+        padding-right: 8rem;
+        margin-left: 10rem;
+    }
+
+    .cajas3{
+        margin-left: 10rem;
+    }
+
+    .form-control.error{
+        margin-left: 10rem;
+    }
+
+    .form-control.success{
+        margin-left: 10rem;
+    }
+
+   
+    /***************MAPA*****************************/
+    #map{
+        display: flex;
+        align-items: center;
+        width: 700px;
+        height: 750px;
+    }
+
+    
+
+}
+
+
+
+
+

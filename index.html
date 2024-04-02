@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Patas Sueltas</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md text-center ">
+      <div class="container">
+        <a class=" navbar-brand" href="index.html">
+            <img class="logotipo " src="img/logo-patas-sueltas.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+          <ul class="navbar-nav mx-3">
+            <li class="nav-item  mx-3">
+              <a class="link nav-link p-3" aria-current="page" href="index.html" style="color: black;" >Inicio</a>
+            </li>
+            <li class="nav-item  mx-3 ">
+              <a class="link nav-link p-3" href="views/galeria.html">Nuestros peludos</a>
+            </li>
+            <li class="nav-item  mx-3">
+              <a class="link nav-link p-3" href="views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block ">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" 
+        aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item">
+          <img src="img/carrusel1.jpg" class="d-block w-100  d-img" alt="Foto de perros paseando">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>PASEOS GRUPALES</h2>
+              <p>Tu peludito tendra muchas experiencias junto a sus amigos.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="img/carrusel3.jpg" class="d-block w-100 d-img" alt="perro comiendo ">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>ALIMENTACION SALUDABLE</h2>
+              <p>Damos una alimentación balanceada y rica para tu peludito.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="img/carrusel2.jpg" class="d-block w-100 d-img" alt="Entrenamiento">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>ENTRENAMIENTO </h2>
+              <p>Le enseñamos a tu peludito buenos modales.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="img/carrusel4.jpg" class="d-block w-100  d-img" alt="perro durmiendo">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>BIENESTAR</h2>
+              <p>Le damos a tu peludito los mejores cuidados gracias a nuestros profecionales.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="img/carrusel.jpg" class="d-block w-100 d-img" alt="perro bañado">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>ESTETICA CANINA</h2>
+              <p>Dejaremos a tu peludito super guapo.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section>
+      <div class="pregunta" >
+          <h3>¿LE ESTAS DANDO LO QUE REALMENTE TU PERRO NECESITA?</h3>
+      </div>
+      <div class="pregunta-opciones">
+          <div class="opciones">
+              <h4>Ejercicio</h4>
+              <p>Un perro sin ejercicio tiene energía de sobra, y salir sólo para usar el baño no es suficiente.</p>
+          </div>
+          <hr>
+          <div class="opciones">
+              <h4>Sociabilización</h4>
+              <p>Muchos problemas de conducta y salud de los perros se deben a que pasan muchas horas en soledad.</p>
+          </div>
+          <hr>
+          <div class="opciones">
+              <h4>Rutina</h4>
+              <p>Mantener una rutina diaria significa mejor comportamiento y mayor inteligencia para tu perro.</p>
+          </div>
+      </div>
+    </section>
+
+    <section class="imagenes-card">
+      <div class="card border-warning p-3 my-3 mx-3" >
+          <img  src="img/fc52565f42a84328544106fa43396903.jpg" class="card-img-top" alt="perro comiendo">
+          <div class="card-body">
+            <h5 class="card-title">Alimentación Saludable </h5>
+            <p class="card-text">Nutrientes de origen natural. <br> Sin conservantes ni colorantes, y basados en alimentos 100% de origen natural.</p>
+            <a href="views/contacto.html" class=" info btn btn-primary">MAS INFORMACION...</a>
+          </div>
+      </div>
+      <div class="card border-warning  p-3 my-3 mx-3" >
+          <img src="img/peluqueria.jpg"  class="card-img-top" alt="un perro cortandole el pelo">
+          <div class="card-body">
+            <h5 class="card-title">Bienestar</h5>
+            <p class="card-text"> Un pelaje limpio y bien cuidado ayuda a prevenir problemas de piel y elimina la acumulación de suciedad y bacterias.</p>
+            <a href="views/contacto.html" class=" info btn btn-primary">MAS INFORMACION...</a>
+          </div>
+      </div>
+      <div class="card border-warning p-3 my-3 mx-3" >
+          <img src="img/entrenamiento.jpeg"  class="card-img-top" alt="un perro cortandole el pelo">
+          <div class="card-body">
+            <h5 class="card-title">Entrenamiento</h5>
+            <p class="card-text"> La educación en positivo, basada en premiar las buenas acciones de nuestro perro, fortalece nuestro vínculo afectivo.</p>
+            <a href="views/contacto.html" class=" info btn btn-primary">MAS INFORMACION...</a>
+          </div>
+      </div>
+      <div class="card border-warning p-3 my-3 mx-3" >
+          <img  src="img/veterinario.jpg" class="card-img-top" alt="un perro cortandole el pelo">
+          <div class="card-body">
+            <h5 class="card-title">Veterinario</h5>
+            <p class="card-text "> Diagnosticamos, tratamos y prevenimos enfermedades que  puedan afectar a tus mascotas, para darle la mejor calidad de vida.</p>
+            <a href="views/contacto.html" class="info btn btn-primary" >MAS INFORMACION...</a>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+          <li class="nav-item"><a href="views/galeria.html" class="nav-link px-2 text-body-secondary">Nuestros peludos</a></li>
+          <li class="nav-item"><a href="views/contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+        </ul>
+        <p class=" texto text-center text-body-secondary">© 2024 Patas sueltas</p>
+        <div class="logos">
+            <a href="https://www.instagram.com/">
+                <img src="img/instagram(1).png" alt="logo de instragram">
+            </a>
+            <a href="https://www.facebook.com/?locale=es_ES">
+                <img src="img/facebook(1).png" alt="logo de facebook">
+            </a>
+            <a href="https://twitter.com/?lang=es">
+                <img src="img/twitter.png" alt="logo de twitter">
+            </a>
+        </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
